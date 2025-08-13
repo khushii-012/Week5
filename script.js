@@ -1,4 +1,5 @@
-// let button = document.getElementById("button");
+//Task1
+// // let button = document.getElementById("button");
 // let para =document.getElementById("para");
 
 //         button.addEventListener('click', () => {
@@ -15,21 +16,19 @@
 
 
 //Task3
- let button = document.getElementById("button");
- button.addEventListener("click", () => {
-            // Pick a random color
-            const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
-            document.body.style.backgroundColor = randomColor;
-            });
+//  let button = document.getElementById("button");
+//  button.addEventListener("click", () => {
+//             // Pick a random color
+//             const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+//             document.body.style.backgroundColor = randomColor;
+//             });
+
+
+
 
 //Task6
-// let button = document.getElementById("button");
-//  console.log("start");
-
-//  setTimeout(()=> {
-//      for(let i=0;i<=1000;i++){
-//          console.log("middle");
-//     }
-// },0);
-
-//  console.log("end");
+document.getElementById("button").addEventListener("click", () => {
+  setTimeout(() => {
+    console.log("Hello");
+  }, 3000); // 3000 ms = 3 seconds
+});
